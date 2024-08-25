@@ -1,13 +1,12 @@
-batch_size: 128
-epochs: 80
+epochs: 40
 lr: 0.001
-
 device: cuda:0
-num_workers: 4
 seed: 1234
 use_wandb: False
-
-data_dir: data
-
+sg_filter: False
+clip: False
+text_image_ratio: 0.5
+clip_alpha: 1.0
+model_name: "baseline"
 # Evaluation
 model_path: 
